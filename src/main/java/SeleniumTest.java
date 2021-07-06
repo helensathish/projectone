@@ -17,6 +17,7 @@ public class SeleniumTest extends Core {
         five.summary();
         PayPage six = new PayPage();
         String pol = six.pay();
+
         setDriver1();
         Merlin merln = new Merlin();
         merln.merlin(pol);
